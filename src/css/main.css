@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 120px;
+    color: #FFFFFF !important;
+}
+h3 {
+    text-shadow: 0 2px 5px rgba(238, 207, 94, 0.2);
+    line-height: 1.5;
+}
+h1 {
+    font-size: 2.8em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #FFFFFF !important;
+}
+p {
+    font-size: 3.4em;
+    margin: 0.5em 0;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF !important;
+}
+.snake {
+    margin: 20px auto;
+    width: auto;
+    height: 180px;
+}

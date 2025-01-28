@@ -1,0 +1,40 @@
+/* 上下跳動動畫 */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+.bounce {
+    animation: bounce 2s ease-in-out infinite;
+    font-size: 2em;
+    font-weight: bold;
+    color: #FF5733;
+    text-shadow: 0 2px 5px rgba(238, 207, 94, 0.2);
+}
+
+/* 心臟動畫 */
+@keyframes heartbeat {
+    0% {
+        transform: scale(0.7);
+    }
+    30% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(0.7);
+    }
+}
+.heartbeat {
+    display: inline-block;
+    animation: heartbeat 2s ease-in-out infinite;
+    color: #FF4D4F;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 0 0 10px #FF4D4F, 0 0 20px #FF7875;
+}
