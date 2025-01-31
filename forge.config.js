@@ -1,7 +1,6 @@
 const { FusesPlugin } = require('@electron-forge/plugin-fuses');
 const { FuseV1Options, FuseVersion } = require('@electron/fuses');
-require('dotenv').config();
-console.log("GitHub Token:", process.env.electron_jwt);
+
 module.exports = {
   packagerConfig: {
     asar: true,
